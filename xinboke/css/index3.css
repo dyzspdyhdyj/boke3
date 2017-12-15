@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: '宋体';
+}
+body {
+  font-size: 12px;
+  color: #000;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+header {
+  width: 100%;
+  height: .5rem;
+  background: #fff;
+  border-bottom: .01rem solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header{
+  width: 1.2rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.navmain{
+  width: 100%;
+  height: .5rem;
+}
+.my, .pi {
+  width: 50%;
+  height: 100%;
+  font-size: .16rem;
+  color: #000;
+  text-align: center;
+  line-height: .5rem;
+  box-sizing: border-box;
+}
+
+.pi {
+  color: red;
+  border-bottom: .02rem solid #F2595B;
+}
+
+
+
+.pinglun{
+  width: 94%;
+  height: 1rem;
+  margin: 0 auto;
+  border-bottom: .01rem solid #eee;
+  margin-top: .1rem;
+}
+.word .update{
+  float: right;
+   font-size: .1rem;
+   width: 31%;
+       color: #4e4a4a;
+    font-weight: normal;
+}
+.word .update span{
+      color: #4e4a4a;
+}
+.biao {
+  font-size: .2rem;
+  margin-top: .05rem;
+  color: #000;
+}
+.word {
+  width: 100%;
+  height: auto;
+}
+.word img {
+  width: 100%;
+}
+.bigbox{
+  width: 100%;
+  height: .12rem;
+}

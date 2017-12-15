@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: '宋体';
+}
+body {
+  font-size: .1rem;
+}
+.header {
+  display: flex;
+  padding: 0 10%;
+  margin: 0 auto;
+  width: 100%;
+  height: 0.8rem;
+  background: red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header div {
+  width: 0.58rem;
+  height: 100%;
+  font-size: 0.58rem;
+  color: #fff;
+  font-weight: 800;
+  font-family: "宋体";
+  text-align: center;
+  line-height: 0.8rem;
+}
+.big{
+  width: 88%;
+  height: .5rem;
+  line-height: .5rem;
+  margin-bottom: .1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.hover{
+   margin-left: .2rem;
+  font-size: .16rem;
+  color: #000;
+   float: left;
+   width: 20%;
+  font-weight: normal;
+}
+.touxiang{
+  border-radius: 50%;
+  width: .4rem;
+  height: .4rem;
+   line-height: 1rem;
+  float: left;
+}
+.touxiang img{
+  width: 100%;
+  height: 100%;
+   border-radius: 50%;
+
+}
+.timu{
+  float: right;
+  font-size: .2rem;
+  border: 1px solid red;
+  width: 1rem;
+  color: red;
+  text-align: center;
+  line-height: .3rem;
+  height: .3rem;
+ margin-right: .5rem;
+ margin-top: .2rem;
+}
+.header p {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  font-size: 0.36rem;
+  line-height: 0.8rem;
+  font-family: "宋体";
+  font-weight: 800;
+  color: #fff;
+}
+
+.header .input {
+  width: 1rem;
+  height: 0.6rem;
+}
+#mj{
+	height: 100%;
+	height: 300px;
+}
+#mj img{
+	height: 100%;
+	width: 90%;
+  margin: 0rem ;
+     margin-left: .2rem;
+}
+.ti {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.3rem 0;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #fff;
+}
+
+.ti p {
+  width: 100%;
+  display: block;
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.ti span {
+  color: #e0e0e0;
+  width: .2rem;
+  height: .16rem;
+margin-right: .1rem;
+margin-top: -.2rem;
+  text-align: center;
+  font-size: 0.12rem;
+  line-height: 0.16rem;
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.2rem;
+
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  /* height: 0.32rem; */
+  height: auto;
+  overflow: hidden;
+  padding: 0.3rem 0;
+}
+
+.main p {
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  color: #333;
+  display: block;
+  margin: 0.1rem 0;
+}
+
+.main .img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: : skyblue;
+  margin: 0.2rem 0;
+}
+
+.main .img img {
+  width: 100%;
+  height: auto;
+}
